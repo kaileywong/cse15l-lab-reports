@@ -17,9 +17,7 @@ Before you get started, make sure to [download](https://code.visualstudio.com/do
 Before trying to connect, find your course-specific account and reset the password using the [account lookup tool](https://sdacs.ucsd.edu/~icc/index.php) to ensure you can access the account (it can take 15-60 minutes for the password to reset). 
 ### Using ssh
 Now, open the terminal in VSCode through the menu (Terminal > New Terminal) and enter this command (using your course-specific username): 
-
 `ssh <your course-specific username>@ieng6.ucsd.edu`
-
 When prompted, enter your password then press return (you won't be able to see any of the characters you type, which is normal). Say 'yes' to any prompts to continue donnecting. Once you're logged in, your terminal should look something like this:
 ![ssh-login](lab1-imgs/ssh.png)
 
