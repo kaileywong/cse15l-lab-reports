@@ -58,7 +58,7 @@ Enter your password when prompted, then log into the server again using `ssh` (a
 ## Setting an SSH key
 In order to skip entering your password each time you use `ssh` or `scp`, you can use `ssh` keys using the `ssh-keygen` command, which creates a pair of public and private keys. 
 
-Enter the command `ssh-keygen`, then when prompted for a file in which to save the key, enter (replacing <username> with your own username) `/Users/<username>/.ssh/id_rsa` and just press `return` twice w
+Enter the command `ssh-keygen`, then when prompted for a file in which to save the key, enter (replacing <username> with your own username) `/Users/<username>/.ssh/id_rsa` and just press `return` twice.
 
 Now, `ssh` into the server and use the command `mkdir .ssh` to create the directory where the public key will be copied to. Log out, then use `scp` to copy the key to the `.ssh` directory you just created: 
 
