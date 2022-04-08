@@ -62,8 +62,7 @@ Enter the command `ssh-keygen`, then when prompted for a file in which to save t
 
 Now, `ssh` into the server and use the command `mkdir .ssh` to create the directory where the public key will be copied to. Log out, then use `scp` to copy the key to the `.ssh` directory you just created: 
 
-`scp /Users/<username>/.ssh/id_rsa.pub
-<course-specific username>@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+`scp /Users/<username>/.ssh/id_rsa.pub <course-specific username>@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 
 Here is an example of using `ssh` after setting up ssh keys:
 ![ssh-key](lab1-imgs/ssh-key.png)
