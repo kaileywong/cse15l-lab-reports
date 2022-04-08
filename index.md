@@ -4,9 +4,9 @@
 
 [GitHub website](github.com)
 
-![molang](https://i.scdn.co/image/ab67616d0000b2733555342d852cf4e8bd20933f)
+![bear](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5kAVnGWZcLLXsfcHyVEVHpIKAbswBXne7Rg&usqp=CAU)
 
-**This is bold text*
+**This is bold text**
 
 *This is italic text*
 
