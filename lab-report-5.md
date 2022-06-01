@@ -18,7 +18,7 @@ Neither implementation was correct. The output for my implementation was no link
 Expected output (using CommonMark): `my_(url)`
 
 For the my implementation, the code could be fixed by checking for colons after a closing bracket which indicates that content after is a reference link. The code should also check for link titles, which are indicated by opening nd closing quote characters. If a link title is found, this portion should be ignored when parsing the links.
-![test file 21942 change](lab5-imgs/testfile194change.png)
+![test file 194 change](lab5-imgs/testfile194change.png)
 
 ## Test 2 (#22)
 [Test-file 22](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/22.md)
